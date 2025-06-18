@@ -1,0 +1,41 @@
+
+.container {
+    display: flex;
+    gap: 20px;
+}
+.left{
+    width: 30%;
+    padding: 20px;
+    background: #e6e6e6;
+    border-radius: 5px;
+}
+.right {
+    width: 70%;
+    padding: 20px;
+    background: #e6e6e6;
+    border-radius: 5px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+th,
+td {
+    border: 1px solid #444;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #333;
+}
+.total,
+.payment-section {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.delete-btn {
+    color: red;
+    cursor: pointer;
+}
